@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.icon{
+  font-size: 25px;
+}
+
+
+/* start CardProduct //////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.main-card{
+  /* background-color: yellow; */
+  max-height: 160px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.pic-box{
+  min-height: 150px;
+  background-color: #F86F03;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.pic-box>img{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.data{
+  min-height: 160px;
+  /* background-color: #FFBF00; */
+  background-color: #f5f5f5;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #f5f5f5;
+}
+.data>h4,h5,h6{
+  padding-top: 5px;
+  padding-left: 10px;
+  
+}
+
+.data>button{
+  border: 2px solid #343A40;
+  height: 35px;
+  border-bottom-right-radius: 10px;
+  transition: 0.5s;
+}
+.data>button:hover{
+  background-color: #343A40;
+  color: white;
+}
+
+
+/* end CardProduct ///////////////////////////////////////////////////////////////////////////////////////// */
+
+/* start AllProduct /////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.wrapper{
+  min-height: 50vh;
+  /* background-color: #10A19D; */
+  background-color: #ffff;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/* end AllProduct ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* start nav //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+nav{
+  /* background-color: #FF7000; */
+  background-color: #343A40;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+
+/* end navvvvvvvvvvvvvvvvvvvvv                              ///////////////////////////////////////////////////// */
+
+.num{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 10px;
+
+}
+
+.tedad{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+  
+}
+
+.tedad>button{
+
+  margin: 5px;
+  font-size: 20px;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+  
+  
+}
+
+
+
+.dollar{
+  padding-right: 10px;
+}
+
+.total{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #540375; */
+  background-color: #28a745;
+  color: white;
+}
+
+.payment{
+  font-size: 20px;
+}
+
+
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
